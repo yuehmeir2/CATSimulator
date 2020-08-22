@@ -1,0 +1,14 @@
+Package: CATSimulator
+Type: Package
+Title: Library for Simulation of Adaptive Item Selection
+Version: 0.1.0
+Author: Yuehmei Chien
+Maintainer: Yuehmei Chien <yuehmeir@gmail.com>
+Description: Define tests in a simulation object, then run a number of simulees through the test, and analyze the quality of the results.
+Depends: R (>= 3.5.0)
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: glpkAPI, tidyverse
+Suggests: clpAPI, cplexAPI, lpSolveAPI, profvis, testthat
